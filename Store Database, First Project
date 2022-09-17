@@ -1,0 +1,31 @@
+CREATE TABLE inventory (product TEXT, price INTEGER, quantity INTEGER);
+
+INSERT INTO inventory VALUES ("Backpacking Stove", 39.99, 19);
+INSERT INTO inventory VALUES ("Cookware Set", 49.99, 12);
+INSERT INTO inventory VALUES ("Utensil Set", 14.99,28);
+INSERT INTO inventory VALUES ("Dishware Set", 22.99, 16);
+INSERT INTO inventory VALUES ("Daypack", 34.99, 6);
+INSERT INTO inventory VALUES ("Forty Liter Pack", 65.99, 11);
+INSERT INTO inventory VALUES ("Fifty Liter Pack", 75.99, 14);
+INSERT INTO inventory VALUES ("Sixty Liter Pack", 89.99, 8);
+INSERT INTO inventory VALUES ("Sleeping Bag", 79.99, 10);
+INSERT INTO inventory VALUES ("Inflatable Pillow", 22.99, 15);
+INSERT INTO inventory VALUES ("Dry Sack", 14.99, 12);
+INSERT INTO inventory VALUES ("Wool Socks", 12.99, 22);
+INSERT INTO inventory VALUES ("Water Filter", 44.99, 26);
+INSERT INTO inventory VALUES ("First Aid Kit", 19.99, 22);
+INSERT INTO inventory VALUES ("Water Bottle", 7.99, 35);
+INSERT INTO inventory VALUES ("Bug Spray", 5.99, 42);
+INSERT INTO inventory VALUES ("Compass", 17.99, 28);
+INSERT INTO inventory VALUES ("Travel Toothpaste", 2.99, 58);
+
+SELECT * FROM inventory;
+
+SELECT * FROM inventory ORDER BY price ASC;
+
+SELECT * FROM inventory ORDER BY quantity DESC;
+
+
+
+
+
